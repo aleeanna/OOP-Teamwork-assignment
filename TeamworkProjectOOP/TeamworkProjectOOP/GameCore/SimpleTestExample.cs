@@ -49,6 +49,10 @@
 
             //character gained 60xp
             Console.WriteLine(testWarrior);
+
+            //goblin hits warrior for attack/2
+            testEnemy.Attack(testWarrior);
+            Console.WriteLine(testWarrior);
         }
     }
 }

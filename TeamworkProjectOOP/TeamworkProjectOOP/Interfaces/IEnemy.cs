@@ -6,5 +6,7 @@
     {
         CreatureType CreatureType { get; }
         int Experience { get; }
+
+        void Attack(IPlayableCharacter player);
     }
 }

@@ -27,5 +27,17 @@
 
             return creatureSheet.ToString();
         }
+
+        public void Attack(IPlayableCharacter player)
+        {
+            if (this.AttackPoints > player.DefensePoints)
+            {
+                player.HitPoints -= this.AttackPoints;
+            }
+            else
+            {
+                player.HitPoints -= this.AttackPoints / 2;
+            }
+        }
     }
 }

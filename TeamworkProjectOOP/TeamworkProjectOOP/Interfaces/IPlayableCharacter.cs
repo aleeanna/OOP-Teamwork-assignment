@@ -4,7 +4,7 @@
     using Interfaces;
     using Enumerations;
 
-    interface IPlayableCharacter : ICharacter
+    public interface IPlayableCharacter : ICharacter
     {
         void Attack(IEnemy enemy);
         void UseSpell(SpellType spell, ICharacter character);
