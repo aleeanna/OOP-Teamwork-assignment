@@ -1,0 +1,24 @@
+....................
+r...............X..R
+.----..W.......--..W
+....W.--..........##
+...--....-----......
+r................W.W
+.......W....W..#####
+....W..######.......
+....................
+-----..........-----
+....................
+W.W.............W..R
+---............-----
+.1...W..W..W..W.W.W.
+###..#..@..#..######
+Avoid the rockets, you can jump through some of the tiles.
+
+W - Items that you collect.
+# - Basic tile on the field.                           
+. - Field.                    
+1 - Start point of the game.  
+X - Exit of the level.
+R - Rocket tile.
+@ - Basic ice platform.
